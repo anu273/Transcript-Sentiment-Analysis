@@ -139,4 +139,5 @@ if st.session_state.get("file_data"):
             summary_df = pd.DataFrame(summary_data)
             st.session_state['summary_df'] = summary_df
         # Switch to the analysis page
-        st.switch_page("pages/Transcript_Analysis.py")
+        st.switch_page("pages/2_Transcript_Analysis.py")
+
