@@ -12,9 +12,9 @@ import torch
 
 
 # Ensure necessary NLTK resources are downloaded
-#import nltk
-#nltk.download('punkt_tab')
-#nltk.download('stopwords')
+import nltk
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 #pdf_file = r"C:\Users\anami\Documents\Projects\FinTech\2 Neuland-Q1-FY17.pdf"
 
@@ -182,4 +182,5 @@ def cumulative_sentiment(text):
     #text = extract_text_from_pdf(pdf_file)
     #text = clean_text(text)
     #dic = extract_forward_looking_statements(text)
+
     #print(dic)  
